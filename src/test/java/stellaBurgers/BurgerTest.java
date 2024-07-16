@@ -1,4 +1,4 @@
-package praktikum;
+package stellaBurgers;
 
 import org.junit.Before;
 import org.junit.Test;

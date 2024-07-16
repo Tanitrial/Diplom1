@@ -1,4 +1,4 @@
-package praktikum;
+package stellaBurgers;
 
 public class BunTest {
 }

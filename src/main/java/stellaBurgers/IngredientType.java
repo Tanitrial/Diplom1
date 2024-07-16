@@ -1,4 +1,4 @@
-package praktikum;
+package stellaBurgers;
 
 /**
  * Перечисление с типами ингредиентов.
