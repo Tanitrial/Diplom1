@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import static org.junit.Assert.*;
-import static constant.Alfa.ALFA;
+import static constant.Omega.OMEGA;
 
 @RunWith(Parameterized.class)
 public class IngredientTest {
@@ -53,6 +53,6 @@ public class IngredientTest {
     @Test
     public void getPrice() {
         float actualPrice = ingredient.getPrice();
-        assertEquals(price, actualPrice, ALFA);
+        assertEquals(price, actualPrice, OMEGA);
     }
 }
