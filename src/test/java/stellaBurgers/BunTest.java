@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import static org.junit.Assert.*;
-import static constant.Omega.ALFA;
+import static constant.Omega.OMEGA;
 
 @RunWith(Parameterized.class)
 public class BunTest {
@@ -38,7 +38,7 @@ public class BunTest {
     @Test
     public void getBunPrice() {
         float actualPrice = bun.getPrice();
-        assertEquals(price, actualPrice, ALFA);
+        assertEquals(price, actualPrice, OMEGA);
     }
 
     //Название булочки и проверка ОР и ФР
