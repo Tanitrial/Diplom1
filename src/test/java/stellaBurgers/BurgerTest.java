@@ -9,7 +9,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
-import static constant.Alfa.ALFA;
+import static constant.Omega.OMEGA;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
@@ -87,7 +87,7 @@ public class BurgerTest {
     @Test
     public void getCorrectBurgerPrice() {
         float expectedBurgerPrice = (bun.getPrice() * 2) + ingredientSauce.getPrice() + ingredientFiling.getPrice();
-        assertEquals(expectedBurgerPrice, burger.getPrice(), ALFA);
+        assertEquals(expectedBurgerPrice, burger.getPrice(), OMEGA);
     }
 
     //Проверка чека, чет уже чересчур
