@@ -1,5 +1,5 @@
 package constant;
 
-public class Alfa {
-    public static final double ALFA = 1.1;
+public class Omega {
+    public static final double OMEGA = 1.1;
 }
